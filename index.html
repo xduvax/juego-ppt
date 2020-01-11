@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Piedra, papel o tijeras</title>
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<script type="text/javascript" src="app.js"></script>
+</head>
+<body>
+
+	<section id="zona_result">
+		<div class="caption">
+			<p>Jugador</p>
+			<img id="player_choice" src="imagenes/piedra.png">
+		</div>	
+		<div class="caption">
+			<p>Computadora</p>
+			<img id="ia_choice" src="imagenes/piedra.png">
+		</div>	
+	</section>
+
+	<p id="resultado">Empate</p>
+	<p id="score">Has ganado en <span id="ganados">0</span> ocasiones. Has perdido en <span id="perdidos">0</span> ocasiones</p>
+
+	<section id="zona_juego">
+		<button id="piedra"><img src="imagenes/piedra.png"></button>
+		<button id="papel"><img src="imagenes/papel.png"></button>
+		<button id="tijeras"><img src="imagenes/tijeras.png"></button>
+	</section>
+
+</body>
+</html>
