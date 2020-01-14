@@ -12,8 +12,12 @@ body{
 	background-color: #28FAC6;
 	font-family: 'Roboto', sans-serif;
 }
-body > h1 {
+body > h1,
+#reiniciar{
 	color: #000;
+}
+#reiniciar{
+	background: #FFF;
 }
 section > button{
 	border: 1px solid #000;
